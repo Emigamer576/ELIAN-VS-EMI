@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>LA PUTIZA DEL AÑO</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: white;
+    }
+
+    /* Encabezado con fondo */
+    .encabezado {
+      background-image: url('fondo.png');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    }
+
+    .encabezado h1 {
+      font-size: 40px;
+    }
+
+    /* Sección de boxeadores */
+    .boxeadores {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      padding: 40px 20px;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    /* Boxeador 1 y 2 - más grandes */
+    .boxeadores img.box {
+      width: 340px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    /* Imagen central sin borde ni sombra */
+    .boxeadores img.centro {
+      width: 250px;
+      height: auto;
+      border-radius: 0;
+      box-shadow: none;
+    }
+
+    .texto-especial {
+      background-color: white;
+      padding: 50px 20px;
+      text-align: center;
+      font-size: 22px;
+      color: #333;
+    }
+
+    .boxeador-descripcion {
+      display: flex;
+      align-items: center;
+      background-color: white;
+      padding: 30px 10%;
+      gap: 30px;
+    }
+
+    .boxeador-descripcion img {
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .boxeador-descripcion .info {
+      font-size: 20px;
+      line-height: 1.6;
+      max-width: 600px;
+    }
+
+    .reverso {
+      flex-direction: row-reverse;
+    }
+
+    .gran-pelea {
+      text-align: center;
+      background-color: white;
+      padding: 50px 20px;
+    }
+
+    .gran-pelea h2 {
+      font-size: 36px;
+      color: black;
+      margin-bottom: 20px;
+    }
+
+    .gran-pelea a {
+      font-size: 22px;
+      color: white;
+      background-color: red;
+      padding: 12px 30px;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .gran-pelea a:hover {
+      background-color: darkred;
+    }
+
+    /* Pie de página gris */
+    footer {
+      background-color: #eee;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <div class="encabezado">
+    <h1>LA PUTIZA DEL AÑO</h1>
+  </div>
+
+  <!-- Imágenes: boxeador1, emivselian, boxeador2 -->
+  <div class="boxeadores">
+    <img src="boxeador1.png" alt="ELIAN" class="box">
+    <img src="emivselian.png" alt="Emi vs Elian" class="centro">
+    <img src="boxeador2.png" alt="EMI" class="box">
+  </div>
+
+  <!-- Texto centrado -->
+  <div class="texto-especial">
+    <p>COMBATIENTES DE LA VELADA</p>
+  </div>
+
+  <!-- Boxeador 4 -->
+  <div class="boxeador-descripcion">
+    <img src="Boxeador4.png" alt="Boxeador4">
+    <div class="info">
+      <h3>Elian</h3>
+      <p>Altura: 1.75 m<br>Peso: 65 kg<br>Estilo: Ofensivo<br>Experiencia: 7 años</p>
+    </div>
+  </div>
+
+  <!-- Boxeador 5 -->
+  <div class="boxeador-descripcion reverso">
+    <img src="Boxeador3.png" alt="Boxeador5">
+    <div class="info">
+      <h3>Emi</h3>
+      <p>Altura: 1.70 m<br>Peso: 60 kg<br>Estilo: Ofensivo<br>Experiencia: 6 años</p>
+    </div>
+  </div>
+
+  <!-- Final: gran pelea -->
+  <div class="gran-pelea">
+    <h2>LA GRAN PELEA, EMI VS ELIAN</h2>
+    <a href="https://tusitio.com/pelea" target="_blank">VER PELEA</a>
+  </div>
+
+  <!-- Créditos -->
+  <footer>
+    Animaciones creadas por EmiGamer576 | Utilizando Roblox studio y Blender | © 2025 SAGM
+  </footer>
+
+</body>
+</html>
